@@ -1,5 +1,4 @@
 class SnapshotArray {
-//
     int snapId = 0;
     TreeMap<Integer, Integer>[] historyRecords;
     
