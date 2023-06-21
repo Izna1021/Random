@@ -1,5 +1,5 @@
 #1547. Minimum Cost to Cut a Stick
-
+//
 class Solution:
     def minCost(self, n: int, cuts: List[int]) -> int:
         # Add the start and end points of the stick to the cuts list
