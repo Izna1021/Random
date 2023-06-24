@@ -1,6 +1,5 @@
 class Solution {
     public int[] getAverages(int[] nums, int k) {
-        // When a single element is considered then its averafge will be the number itself only.
         if (k == 0) {
             return nums;
         }
