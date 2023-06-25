@@ -1,0 +1,37 @@
+class Solution {
+    private final int MOD = (int) 1e9 + 7;
+    private int[][] memo;
+
+    public int countRoutes(int[] locations, int start, int finish, int fuel) {
+        memo = new int[locations.length][fuel + 1];
+        for (int[] row : memo) {
+            Arrays.fill(row, -1);
+        }
+
+        return dfs(locations, start, finish, fuel);
+    }
+
+    private int dfs(int[] locations, int curr, int finish, int fuel) {
+        if (fuel < 0) {
+            return 0; // No more fuel, cannot reach the destination
+        }
+
+        if (memo[curr][fuel] != -1) {
+            return memo[curr][fuel];
+        }
+
+        int routes = (curr == finish) ? 1 : 0;
+
+        for (int i = 0; i < locations.length; i++) {
+            if (i != curr) {
+                int fuelCost = Math.abs(locations[curr] - locations[i]);
+                if (fuelCost <= fuel) {
+                    routes = (routes + dfs(locations, i, finish, fuel - fuelCost)) % MOD;
+                }
+            }
+        }
+
+        memo[curr][fuel] = routes;
+        return routes;
+    }
+}
