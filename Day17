@@ -13,7 +13,7 @@ class Solution {
 
     private int dfs(int[] locations, int curr, int finish, int fuel) {
         if (fuel < 0) {
-            return 0; // No more fuel, cannot reach the destination
+            return 0; 
         }
 
         if (memo[curr][fuel] != -1) {
