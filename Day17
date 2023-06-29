@@ -1,5 +1,5 @@
 class Solution {
-    private final int MOD = (int) 1e9 + 7;
+    private final int MOD = (int) 1e^9 + 7;
     private int[][] memo;
 
     public int countRoutes(int[] locations, int start, int finish, int fuel) {
@@ -7,7 +7,7 @@ class Solution {
         for (int[] row : memo) {
             Arrays.fill(row, -1);
         }
-
+//
         return dfs(locations, start, finish, fuel);
     }
 
