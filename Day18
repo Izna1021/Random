@@ -6,7 +6,7 @@ class Solution {
             int[] balance = new int[n];
             int numTransfers = 0;
             
-            // Process each request based on the combination
+        
             for (int j = 0; j < numRequests; j++) {
                 if (((i >> j) & 1) == 1) {
                     int from = requests[j][0];
