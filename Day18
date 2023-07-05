@@ -17,7 +17,6 @@ class Solution {
                 }
             }
             
-            // Check if the balance is zero for all banks
             boolean isBalanceZero = true;
             for (int k = 0; k < n; k++) {
                 if (balance[k] != 0) {
