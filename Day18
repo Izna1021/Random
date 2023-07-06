@@ -24,8 +24,6 @@ class Solution {
                     break;
                 }
             }
-            
-            // Update the maximum achievable transfers
             if (isBalanceZero) {
                 maxAchievable = Math.max(maxAchievable, numTransfers);
             }
