@@ -16,7 +16,7 @@ class Solution {
                     numTransfers++;
                 }
             }
-            
+            //
             boolean isBalanceZero = true;
             for (int k = 0; k < n; k++) {
                 if (balance[k] != 0) {
