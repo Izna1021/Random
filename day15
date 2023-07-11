@@ -8,7 +8,6 @@ class Solution {
         int[] averages = new int[n];
         Arrays.fill(averages, -1);
 
-        // Any index will not have 'k' elements in it's left and right.
         if (2 * k + 1 > n) {
             return averages;
         }
