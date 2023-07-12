@@ -5,7 +5,7 @@ class Solution {
         for (int i = 0; i < (1 << numRequests); i++) {
             int[] balance = new int[n];
             int numTransfers = 0;
-            
+            //
         
             for (int j = 0; j < numRequests; j++) {
                 if (((i >> j) & 1) == 1) {
