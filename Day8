@@ -8,8 +8,6 @@ class Solution {
         for (int i = 2; i < coordinates.length; i++) {
             int x = coordinates[i][0];
             int y = coordinates[i][1];
-
-            // Check if the current point lies on the line defined by the first two points
             if ((y1 - y0) * (x - x0) != (x1 - x0) * (y - y0)) {
                 return false;
             }
