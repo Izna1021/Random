@@ -6,7 +6,6 @@ class Solution:
         cuts.sort()
 
         m = len(cuts)
-        # Initialize a 2D array to store the minimum cost between two points
         dp = [[0] * m for _ in range(m)]
 
         # Iterate over the lengths of the cuts
