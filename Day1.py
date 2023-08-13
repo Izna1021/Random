@@ -8,7 +8,6 @@ class Solution:
         m = len(cuts)
         dp = [[0] * m for _ in range(m)]
 
-        # Iterate over the lengths of the cuts
         for length in range(2, m):
             for i in range(m - length):
                 j = i + length
