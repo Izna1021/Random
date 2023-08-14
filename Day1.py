@@ -11,7 +11,7 @@ class Solution:
         for length in range(2, m):
             for i in range(m - length):
                 j = i + length
-                # Initialize the minimum cost with a large value
+            
                 dp[i][j] = float('inf')
 
                 # Calculate the cost for all possible cuts between i and j
