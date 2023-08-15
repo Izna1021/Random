@@ -13,8 +13,6 @@ class Solution:
                 j = i + length
             
                 dp[i][j] = float('inf')
-
-                # Calculate the cost for all possible cuts between i and j
                 for k in range(i + 1, j):
                     dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j] + cuts[j] - cuts[i])
 
