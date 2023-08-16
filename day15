@@ -16,7 +16,6 @@ class Solution {
             prefix[i + 1] = prefix[i] + nums[i];
         }
 
-        // We iterate only on those indices which have atleast 'k' elements in their left and right.
         // i.e. indices from 'k' to 'n - k'
         for (int i = k; i < (n - k); ++i) {
             int leftBound = i - k, rightBound = i + k;
