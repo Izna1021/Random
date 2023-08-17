@@ -16,7 +16,6 @@ class Solution {
             prefix[i + 1] = prefix[i] + nums[i];
         }
 
-        // i.e. indices from 'k' to 'n - k'
         for (int i = k; i < (n - k); ++i) {
             int leftBound = i - k, rightBound = i + k;
             long subArraySum = prefix[rightBound + 1] - prefix[leftBound];
