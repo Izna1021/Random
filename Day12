@@ -16,3 +16,4 @@ class Solution {
         return left < letters.length ? letters[left] : letters[0];
     }
 }
+}
