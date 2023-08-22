@@ -5,7 +5,7 @@ class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
         int n = grid.length;
         if (grid[0][0] == 1 || grid[n - 1][n - 1] == 1) {
-            return -1; // If the start or end cell is blocked, no path is possible
+            return -1; 
         }
         
         int[][] directions = {
