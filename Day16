@@ -1,7 +1,7 @@
 class Solution {
     public int longestArithSeqLength(int[] nums) {
         int n = nums.length;
-        int maxLength = 2; // Minimum length of arithmetic subsequence is 2
+        int maxLength = 2; 
         HashMap<Integer, Integer>[] dp = new HashMap[n];
         
         for (int i = 0; i < n; i++) {
