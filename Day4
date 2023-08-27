@@ -28,7 +28,7 @@ class Solution {
                 int col = cell[1];
                 
                 if (row == n - 1 && col == n - 1) {
-                    return steps; // Reached the end cell
+                    return steps; 
                 }
                 
                 for (int[] dir : directions) {
