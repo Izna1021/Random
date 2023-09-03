@@ -1,5 +1,4 @@
 class Solution {
-  // Similar to 139. Word Break
   public int minExtraChar(String s, String[] dictionary) {
     final int n = s.length();
     Set<String> dictionarySet = new HashSet<>(Arrays.asList(dictionary));
