@@ -12,7 +12,6 @@ class Solution {
             }
         }
 
-        // Sort the edges by their weights in ascending order.
         Collections.sort(edges, (a, b) -> a.distance - b.distance);
 
         int minCost = 0;
