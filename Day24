@@ -16,8 +16,6 @@ class Solution {
 
         int minCost = 0;
         UnionFind uf = new UnionFind(n);
-
-        // Apply Kruskal's algorithm to find the minimum spanning tree.
         for (Edge edge : edges) {
             int u = edge.u;
             int v = edge.v;
