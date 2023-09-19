@@ -30,7 +30,6 @@ class Solution {
         return minCost;
     }
 
-    // Definition of an edge class.
     class Edge {
         int u;
         int v;
