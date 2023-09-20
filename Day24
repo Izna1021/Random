@@ -42,7 +42,6 @@ class Solution {
         }
     }
 
-    // Definition of a union-find (disjoint set) data structure.
     class UnionFind {
         int[] parent;
 
