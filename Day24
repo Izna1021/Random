@@ -11,7 +11,6 @@ class Solution {
                 edges.add(new Edge(i, j, distance));
             }
         }
-
         Collections.sort(edges, (a, b) -> a.distance - b.distance);
 
         int minCost = 0;
