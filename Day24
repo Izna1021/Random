@@ -12,7 +12,6 @@ class Solution {
             }
         }
         Collections.sort(edges, (a, b) -> a.distance - b.distance);
-
         int minCost = 0;
         UnionFind uf = new UnionFind(n);
         for (Edge edge : edges) {
