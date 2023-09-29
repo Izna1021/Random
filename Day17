@@ -14,7 +14,6 @@ class Solution {
         if (fuel < 0) {
             return 0; 
         }
-
         if (memo[curr][fuel] != -1) {
             return memo[curr][fuel];
         }
