@@ -11,7 +11,6 @@ class Solution {
         } else {
             count += (long)(value + 1) * value / 2 + n - index - value;
         }   
-        
         return count - value;
       
     }
