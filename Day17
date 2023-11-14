@@ -8,7 +8,6 @@ class Solution {
         }
         return dfs(locations, start, finish, fuel);
     }
-
     private int dfs(int[] locations, int curr, int finish, int fuel) {
         if (fuel < 0) {
             return 0; 
