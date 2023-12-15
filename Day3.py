@@ -12,8 +12,6 @@ class MyHashSet:
 
         return key % self.size
 
-    
-
     def add(self, key):
 
         if not self.contains(key):
