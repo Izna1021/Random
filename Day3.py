@@ -6,8 +6,6 @@ class MyHashSet:
 
         self.buckets = [[] for _ in range(self.size)]
 
-        
-
     def _hash(self, key):
 
         return key % self.size
