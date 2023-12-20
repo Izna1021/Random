@@ -3,7 +3,6 @@ class Solution {
         if (k == 0) {
             return nums;
         }
-
         int n = nums.length;
         int[] averages = new int[n];
         Arrays.fill(averages, -1);
@@ -22,7 +21,6 @@ class Solution {
             int average = (int) (subArraySum / (2 * k + 1));
             averages[i] = average;
         }
-
         return averages;
     }
 }
