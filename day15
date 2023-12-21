@@ -6,7 +6,6 @@ class Solution {
         int n = nums.length;
         int[] averages = new int[n];
         Arrays.fill(averages, -1);
-
         if (2 * k + 1 > n) {
             return averages;
         }
