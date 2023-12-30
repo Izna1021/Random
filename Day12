@@ -10,6 +10,6 @@ class Solution {
                 right = mid - 1;
             };
         }
-        return left < letters.length ? letters[left] : letters[0];
+        return left < letters.length ? letters[left] : letters[0]
     }
 }
