@@ -9,4 +9,4 @@ class Solution {
             } else {
                 right = mid - 1;
             };
-        return left < letters.length ? le
+        return left < letters.length ? l
