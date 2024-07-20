@@ -1,2 +1,2 @@
 class Solution 
-    public char nextGreatestLetter(char[] lett
+    public char nextGreatestLetter(char[] let
