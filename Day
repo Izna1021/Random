@@ -1,5 +1,5 @@
 class Solution 
-{
+
     public int fun(int i,int[][] nums,int prev,int max,int[][] dp)
     {
         if(i==nums.length || max==0)  return 0;
