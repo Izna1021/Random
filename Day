@@ -19,7 +19,7 @@ class Solution
     {
         Arrays.sort(events,(a,b) -
         {
-            if(a[0]==b[0])  retur[1]-b[1];
+            if(a[0]==b[0])  retur[1]-b[1]
             return a[0]-b[0];
         });
        int[][] dp=new int[events.length+1][k+1];
