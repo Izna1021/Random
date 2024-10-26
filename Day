@@ -7,7 +7,7 @@ class Solution
         if(dp[prev+1][max]!=-1)  return dp[prev+1][max];
 
         int take=0;
-        int not=0
+        int not=
         if(prev==-1 || nums[prev][1]<nums[i][0])
         
             take=nums[i][2]+fun(i+1,nums,i,x-1,dp);
