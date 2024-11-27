@@ -8,7 +8,7 @@ class Solution
 
         int take=0
         int not=
-        if(prev==-1 || nums[prev][1]<nums[i][0])
+        if(prev==-1 || nums[prev][1]<nums[i][0]
         
             take=nums[i][2]+fun(i+1,nums,i,x-1,dp);
         not=0+fun(i+1,nums,prev,max,dp)
